@@ -95,16 +95,72 @@
           "icon": "https://batocera.org/images/head/logo-tri.png",
           "subitems": [
             {
-              "name": "Batocera 39 (RPI 4/400)",
+              "name": "Batocera 39 (RPI 1)",
               "description": "Ready to Retro",
               "icon": "https://batocera.org/images/head/logo-tri.png",
-              "url": "https://updates.batocera.org/bcm2711/stable/last/batocera-bcm2711-bcm2711-39-20240228.img.gz",
+              "url": "https://updates.batocera.org/bcm2835/stable/last/batocera-bcm2835-bcm2835-39-20240229.img.gz",
+              "extract_size": 3759144960,
+              "extract_sha256": "a068a33f969ed49f69bfe683ac3b0d665743c399ae76e4477c81a73cd1e980b5",
+              "image_download_size": 1061334432,
+              "release_date": "2024-02-29",
+              "devices": [
+                "pi1-32bit"
+              ],
+              "init_format": "none"
+            },
+            {
+              "name": "Batocera 39 (RPI 2)",
+              "description": "Ready to Retro",
+              "icon": "https://batocera.org/images/head/logo-tri.png",
+              "url": "https://updates.batocera.org/bcm2836/stable/last/batocera-bcm2836-bcm2836-39-20240301.img.gz",
               "extract_size": 4832886784,
-              "extract_sha256": "c2747613528efcfc65749f99c2ab031ee528b9fb102c2351e395d07a67dfa33e",
-              "image_download_size": 1932200510,
-              "release_date": "2024-02-28",
+              "extract_sha256": "cbf49f525ca0b31be38bc8a743c736af818d44c68adf51553ed6ab60912b34e3",
+              "image_download_size": 1601431181,
+              "release_date": "2024-03-01",
+              "devices": [
+                "pi2-32bit"
+              ],
+              "init_format": "none"
+            },
+            {
+              "name": "Batocera 40 (RPI 3)",
+              "description": "Ready to Retro",
+              "icon": "https://batocera.org/images/head/logo-tri.png",
+              "url": "https://updates.batocera.org/bcm2837/stable/last/batocera-bcm2837-40-20240803.img.gz",
+              "extract_size": 4832886784,
+              "extract_sha256": "9727b6345df7a380bf0cabd51e17ad2562d2962b47f2485f55b3b1e88b684b99",
+              "image_download_size": 1686149372,
+              "release_date": "2024-08-03",
+              "devices": [
+                "pi3-64bit"
+              ],
+              "init_format": "none"
+            },
+            {
+              "name": "Batocera 40 (RPI 4/400)",
+              "description": "Ready to Retro",
+              "icon": "https://batocera.org/images/head/logo-tri.png",
+              "url": "https://updates.batocera.org/bcm2711/stable/last/batocera-bcm2711-40-20240802.img.gz",
+              "extract_size": 4832886784,
+              "extract_sha256": "44510ddfdd34e11e4f20f38a7f5fa71aa51c375f61fbdc77256dac0b6f95cdb9",
+              "image_download_size": 2039398923,
+              "release_date": "2024-08-02",
               "devices": [
                 "pi4-64bit"
+              ],
+              "init_format": "none"
+            },
+            {
+              "name": "Batocera 40 (RPI 5)",
+              "description": "Ready to Retro",
+              "icon": "https://batocera.org/images/head/logo-tri.png",
+              "url": "https://updates.batocera.org/bcm2712/stable/last/batocera-bcm2712-40-20240731.img.gz",
+              "extract_size": 6980370432,
+              "extract_sha256": "a3d6fa19321d2bda029d0259ef79dead5aaad0e1d977abf0b8276d854db10414",
+              "image_download_size": 2069327376,
+              "release_date": "2024-07-31",
+              "devices": [
+                "pi5-64bit"
               ],
               "init_format": "none"
             }
